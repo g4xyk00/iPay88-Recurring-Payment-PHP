@@ -36,9 +36,9 @@ $Signature = base64_encode(sha1($FullStringToHash,true ));
 	<input type="hidden" name="P_State" value="">
 	<input type="hidden" name="P_Zip" value="">	
 	<input type="hidden" name="P_Country" value="Malaysia">	
-    <input type="hidden" name="BackendURL" value="">
+    <input type="hidden" name="BackendURL" value="backend.php">
     <input type="hidden" name="Signature" value="<?php echo $Signature; ?>">
-    <input type="hidden" name="ResponseURL" value="">
+    <input type="hidden" name="ResponseURL" value="response.php">
 	<button type="submit" value="Submit">Submit</button>
 </form>
 
